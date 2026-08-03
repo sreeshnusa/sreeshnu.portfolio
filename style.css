@@ -11,11 +11,11 @@
 :root {
   --bg-dark: #0A0A0A;
   --bg-card: #121212;
-  --bg-card-hover: #1A1A1A;
-  --card-border: #222222;
-  --primary-accent: #EF4444; /* Crimson Red Accent */
-  --primary-accent-dark: #DC2626;
-  --hover-accent: #F87171;
+  --bg-card-hover: #161D26;
+  --card-border: #1E293B;
+  --primary-accent: #38BDF8; /* Electric Light Blue Accent */
+  --primary-accent-dark: #0284C7;
+  --hover-accent: #60A5FA;
   --text-primary: #FFFFFF;
   --text-secondary: #9CA3AF;
   --text-muted: #6B7280;
@@ -286,7 +286,7 @@ img {
   font-family: var(--font-heading);
   font-size: 15rem;
   font-weight: 800;
-  color: #1A0808;
+  color: #0B1929;
   letter-spacing: 15px;
   text-transform: uppercase;
   white-space: nowrap;
@@ -633,8 +633,8 @@ img {
 
 /* Quote Sidebar Box */
 .quote-sidebar-box {
-  background-color: #1A0808;
-  border: 1px solid rgba(239, 68, 68, 0.3);
+  background-color: #0A192F;
+  border: 1px solid rgba(56, 189, 248, 0.3);
   border-radius: var(--border-radius);
   padding: 30px;
   display: flex;
@@ -671,7 +671,7 @@ img {
   letter-spacing: 2px;
   color: var(--text-secondary);
   margin-top: 25px;
-  border-top: 1px solid rgba(239, 68, 68, 0.2);
+  border-top: 1px solid rgba(56, 189, 248, 0.2);
   padding-top: 15px;
 }
 
@@ -730,7 +730,7 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(239, 68, 68, 0.1);
+  background-color: rgba(56, 189, 248, 0.1);
   color: var(--primary-accent);
   display: flex;
   align-items: center;
