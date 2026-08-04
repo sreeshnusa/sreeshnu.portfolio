@@ -201,17 +201,19 @@ img {
 /* Giant Red Title Behind Person */
 .mason-giant-title {
   position: absolute;
-  top: 15px;
+  top: 25px;
   left: 50%;
   transform: translateX(-50%);
   font-family: var(--font-heading);
-  font-size: 8.5rem;
+  font-size: 5.2rem;
   font-weight: 900;
   text-transform: uppercase;
-  letter-spacing: -2px;
+  letter-spacing: 0.04em;
   color: var(--primary-accent);
   line-height: 0.9;
   white-space: nowrap;
+  width: 90%;
+  text-align: center;
   user-select: none;
   pointer-events: none;
   z-index: 1;
