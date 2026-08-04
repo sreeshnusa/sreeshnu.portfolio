@@ -27,107 +27,59 @@
 </head>
 <body>
 
-  <!-- ==========================================================================
-       Navigation Bar
-       ========================================================================== -->
-  <header class="navbar">
-    <div class="container nav-container">
-      <a href="#home" class="logo">
-        <span class="logo-code">&lt;/&gt;</span> Sreeshnu S A
-      </a>
-      
-      <nav>
-        <ul class="nav-links" id="nav-links">
-          <li><a href="#home" class="nav-link active">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#experience" class="nav-link">Experience</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div>
-        <a href="assets/resume.pdf" download="Sreeshnu_S_A_Resume.pdf" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.85rem;">
-          Resume ↗
-        </a>
-      </div>
-
-      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
-
   <main>
     <!-- ==========================================================================
-         1. Hero Section (CodeCraft Violet Theme Layout)
+         1. Hero Section (MASON Magazine Card Layout)
          ========================================================================== -->
-    <section id="home" class="hero fade-in">
-      <div class="container">
-        <div class="hero-grid-container">
-          <!-- Left Column -->
-          <div class="hero-left-content">
-            <div>
-              <span class="section-label-badge">I'M AN ASPIRING DATA ANALYST</span>
-            </div>
-            
-            <h1 class="hero-greeting-title">
-              Hi, I'm <span>Sreeshnu</span><br>
-              I build data solutions.
-            </h1>
+    <section id="home" class="mason-hero fade-in">
+      <!-- Top Outer Metadata -->
+      <div class="mason-top-meta">
+        <div>CONCEPT #1</div>
+        <div>01 / 30</div>
+      </div>
 
-            <p class="hero-bio-desc">
-              AI &amp; Data Science undergraduate at NIET (Anna University) specializing in transforming complex business data into actionable insights using SQL, Python, Power BI, and Tableau.
-            </p>
+      <!-- Central Magazine Card -->
+      <div class="mason-card">
+        <!-- Giant Red Title Behind Person -->
+        <div class="mason-giant-title">SREESHNU</div>
 
-            <div class="hero-cta-buttons">
-              <a href="#projects" class="btn btn-primary">
-                View My Work ↗
-              </a>
-              <a href="assets/resume.pdf" download="Sreeshnu_S_A_Resume.pdf" class="btn btn-outline">
-                Download Resume 📥
-              </a>
-            </div>
+        <!-- Transparent Cutout Body Shape Portrait -->
+        <img src="assets/images/hero-person-transparent.png?v=8" alt="Sreeshnu S A" class="mason-portrait-img">
 
-            <!-- Tech badges row -->
-            <div class="tech-icons-block">
-              <div class="tech-block-title">TECHNOLOGIES I WORK WITH</div>
-              <div class="tech-badges-row">
-                <span class="tech-badge-item"><span>•</span> Python</span>
-                <span class="tech-badge-item"><span>•</span> SQL</span>
-                <span class="tech-badge-item"><span>•</span> Power BI</span>
-                <span class="tech-badge-item"><span>•</span> Tableau</span>
-                <span class="tech-badge-item"><span>•</span> Excel</span>
-                <span class="tech-badge-item"><span>•</span> Java</span>
-              </div>
-            </div>
+        <!-- Card Top Row Content -->
+        <div class="mason-card-top-row">
+          <div class="mason-meta-left">
+            <div>ASPIRING DATA ANALYST</div>
+            <span>COIMBATORE, TN</span>
           </div>
 
-          <!-- Right Column (Purple Circle Backdrop + Floating Code Card Overlay) -->
-          <div class="hero-right-visual">
-            <div class="purple-circle-backdrop"></div>
-            <img src="assets/images/hero-person-transparent.png?v=7" alt="Sreeshnu S A" class="codecraft-portrait-img">
+          <nav class="mason-card-nav">
+            <a href="#about" class="mason-nav-link">ABOUT</a>
+            <a href="#projects" class="mason-nav-link">PROJECTS</a>
+            <a href="#skills" class="mason-nav-link">SKILLS</a>
+            <a href="#contact" class="mason-nav-link">CONTACT</a>
+          </nav>
+        </div>
 
-            <!-- Floating Code Snippet Card -->
-            <div class="floating-code-card">
-              <div class="code-card-header">
-                <span>&lt;/&gt; Code</span>
-                <div class="code-dots">
-                  <span class="code-dot dot-red"></span>
-                  <span class="code-dot dot-yellow"></span>
-                  <span class="code-dot dot-green"></span>
-                </div>
-              </div>
-              <div class="code-line"><span class="code-kw">const</span> analyst = {</div>
-              <div class="code-line">&nbsp;&nbsp;<span class="code-prop">name</span>: <span class="code-str">"Sreeshnu S A"</span>,</div>
-              <div class="code-line">&nbsp;&nbsp;<span class="code-prop">role</span>: <span class="code-str">"Data Analyst"</span>,</div>
-              <div class="code-line">&nbsp;&nbsp;<span class="code-prop">passion</span>: <span class="code-str">"AI &amp; BI Insights"</span></div>
-              <div class="code-line">};</div>
-            </div>
+        <!-- Card Bottom Row Content -->
+        <div class="mason-card-bottom-row">
+          <div class="mason-card-stat">
+            <div class="stat-big-num">7.6</div>
+            <div class="stat-label-sub">CGPA<br>B.TECH AI &amp; DS</div>
           </div>
+
+          <div class="mason-card-headline">
+            <span class="headline-badge-r">R</span> DATA-DRIVEN INSIGHTS TILL PERFECTION
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Outer Metadata -->
+      <div class="mason-bottom-meta">
+        <img src="assets/images/profile.jpg" alt="Sreeshnu S A" class="mason-avatar-circle">
+        <div class="mason-bottom-text">
+          @SREESHNU09
+          <span>ASPIRING DATA ANALYST</span>
         </div>
       </div>
     </section>
@@ -137,53 +89,39 @@
          ========================================================================== -->
     <section id="about" class="section fade-in">
       <div class="container">
-        <div class="about-grid-layout">
-          <!-- Left Side -->
+        <div class="about-grid-container">
           <div>
-            <span class="section-label-badge">ABOUT ME</span>
-            <h2 class="about-main-title">
-              I'm passionate about creating data-driven AI solutions
-            </h2>
-            <p class="about-text-desc">
-              I bring strong analytical, communication, and problem-solving skills focused on clean data modeling, exploratory analysis, and business dashboard design.
+            <div class="section-label">/ ABOUT ME</div>
+            <h2 class="section-title">Building Data Solutions &amp; AI Applications</h2>
+            <p class="about-desc-paragraph">
+              I am an Artificial Intelligence and Data Science undergraduate at Nehru Institute of Engineering and Technology (Anna University) with practical skills in SQL, Python, Power BI, and Tableau. Focused on delivering data-driven business insights.
             </p>
-            <a href="#contact" class="btn btn-outline" style="font-size: 0.85rem;">
-              Learn More &amp; Connect 👤
-            </a>
+            <div>
+              <a href="assets/resume.pdf" download="Sreeshnu_S_A_Resume.pdf" class="btn btn-primary">
+                Download Full Resume ↗
+              </a>
+            </div>
           </div>
 
-          <!-- Right Side (2x2 Stats Grid) -->
-          <div class="stats-2x2-grid">
-            <div class="codecraft-stat-box">
-              <div class="stat-icon-square">🎓</div>
-              <div>
-                <div class="stat-number-val">7.6</div>
-                <div class="stat-label-text">CGPA (B.Tech AI &amp; DS)</div>
-              </div>
+          <div class="stats-cards-grid">
+            <div class="mason-stat-box">
+              <div class="stat-box-num">7.6</div>
+              <div class="stat-box-label">CGPA (B.Tech AI &amp; DS)</div>
             </div>
 
-            <div class="codecraft-stat-box">
-              <div class="stat-icon-square">🏆</div>
-              <div>
-                <div class="stat-number-val">Finalist</div>
-                <div class="stat-label-text">Cardano Hackathon 2025</div>
-              </div>
+            <div class="mason-stat-box">
+              <div class="stat-box-num">🏆</div>
+              <div class="stat-box-label">Cardano Hackathon Finalist</div>
             </div>
 
-            <div class="codecraft-stat-box">
-              <div class="stat-icon-square">💼</div>
-              <div>
-                <div class="stat-number-val">2</div>
-                <div class="stat-label-text">Internship Roles</div>
-              </div>
+            <div class="mason-stat-box">
+              <div class="stat-box-num">2</div>
+              <div class="stat-box-label">Internship Roles</div>
             </div>
 
-            <div class="codecraft-stat-box">
-              <div class="stat-icon-square">📊</div>
-              <div>
-                <div class="stat-number-val">3+</div>
-                <div class="stat-label-text">Core Projects Completed</div>
-              </div>
+            <div class="mason-stat-box">
+              <div class="stat-box-num">3+</div>
+              <div class="stat-box-label">Core Projects Completed</div>
             </div>
           </div>
         </div>
@@ -191,158 +129,61 @@
     </section>
 
     <!-- ==========================================================================
-         3. Skills Section ("Technologies I Master")
-         ========================================================================== -->
-    <section id="skills" class="section fade-in">
-      <div class="container">
-        <div style="text-align: center; margin-bottom: 40px;">
-          <span class="section-label-badge">MY SKILLS</span>
-          <h2 class="section-title">Technologies I Master</h2>
-        </div>
-
-        <div class="skills-master-grid">
-          <!-- Skill 1 -->
-          <div class="skill-master-card">
-            <div class="skill-card-top">
-              <div class="skill-info-left">
-                <span class="skill-logo-icon">🐍</span> Python
-              </div>
-              <span class="skill-percent-tag">95%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width: 95%;"></div>
-            </div>
-          </div>
-
-          <!-- Skill 2 -->
-          <div class="skill-master-card">
-            <div class="skill-card-top">
-              <div class="skill-info-left">
-                <span class="skill-logo-icon">🗄️</span> SQL
-              </div>
-              <span class="skill-percent-tag">90%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width: 90%;"></div>
-            </div>
-          </div>
-
-          <!-- Skill 3 -->
-          <div class="skill-master-card">
-            <div class="skill-card-top">
-              <div class="skill-info-left">
-                <span class="skill-logo-icon">📊</span> Power BI
-              </div>
-              <span class="skill-percent-tag">90%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width: 90%;"></div>
-            </div>
-          </div>
-
-          <!-- Skill 4 -->
-          <div class="skill-master-card">
-            <div class="skill-card-top">
-              <div class="skill-info-left">
-                <span class="skill-logo-icon">📈</span> Tableau
-              </div>
-              <span class="skill-percent-tag">88%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width: 88%;"></div>
-            </div>
-          </div>
-
-          <!-- Skill 5 -->
-          <div class="skill-master-card">
-            <div class="skill-card-top">
-              <div class="skill-info-left">
-                <span class="skill-logo-icon">📗</span> Microsoft Excel
-              </div>
-              <span class="skill-percent-tag">95%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width: 95%;"></div>
-            </div>
-          </div>
-
-          <!-- Skill 6 -->
-          <div class="skill-master-card">
-            <div class="skill-card-top">
-              <div class="skill-info-left">
-                <span class="skill-logo-icon">☕</span> Java
-              </div>
-              <span class="skill-percent-tag">85%</span>
-            </div>
-            <div class="skill-bar-track">
-              <div class="skill-bar-fill" style="width: 85%;"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
-         4. Featured Projects Section ("Some of My Recent Work")
+         3. Featured Projects Section
          ========================================================================== -->
     <section id="projects" class="section fade-in">
       <div class="container">
-        <div style="text-align: center; margin-bottom: 40px;">
-          <span class="section-label-badge">FEATURED PROJECTS</span>
-          <h2 class="section-title">Some of My Recent Work</h2>
-        </div>
+        <div class="section-label">/ PORTFOLIO</div>
+        <h2 class="section-title" style="margin-bottom: 35px;">FEATURED PROJECTS</h2>
 
-        <div class="projects-cards-row">
-          <!-- Project Card 1 -->
-          <a href="https://github.com/sreeshnusa" target="_blank" rel="noopener noreferrer" class="project-codecraft-card">
-            <div class="project-codecraft-img-wrapper">
-              <span class="project-num-badge">01</span>
-              <img src="assets/project-images/project2.jpg" alt="Shadow Voting System" class="project-codecraft-img">
+        <div class="projects-mason-grid">
+          <!-- Project 1 -->
+          <a href="https://github.com/sreeshnusa" target="_blank" rel="noopener noreferrer" class="project-card-item">
+            <div class="project-img-container">
+              <img src="assets/project-images/project2.jpg" alt="Shadow Voting System">
             </div>
-            <div class="project-codecraft-content">
-              <h3 class="project-codecraft-title">Shadow Voting System</h3>
-              <p class="project-codecraft-desc">
+            <div class="project-card-body">
+              <h3 class="project-item-title">Shadow Voting System</h3>
+              <p class="project-item-desc">
                 Cardano Hackathon ASIA Finalist project focused on secure and transparent digital voting concepts.
               </p>
-              <div class="project-codecraft-footer">
+              <div class="project-item-footer">
                 <span style="font-size: 0.78rem; color: var(--text-muted);">Blockchain &amp; Security</span>
-                <span class="view-project-link">View Project &rarr;</span>
+                <span class="project-red-link">GitHub Repo &rarr;</span>
               </div>
             </div>
           </a>
 
-          <!-- Project Card 2 -->
-          <a href="https://github.com/sreeshnusa" target="_blank" rel="noopener noreferrer" class="project-codecraft-card">
-            <div class="project-codecraft-img-wrapper">
-              <span class="project-num-badge">02</span>
-              <img src="assets/project-images/project1.jpg" alt="Market Sales Dashboard" class="project-codecraft-img">
+          <!-- Project 2 -->
+          <a href="https://github.com/sreeshnusa" target="_blank" rel="noopener noreferrer" class="project-card-item">
+            <div class="project-img-container">
+              <img src="assets/project-images/project1.jpg" alt="Market Sales Dashboard">
             </div>
-            <div class="project-codecraft-content">
-              <h3 class="project-codecraft-title">Market Sales Dashboard</h3>
-              <p class="project-codecraft-desc">
-                Interactive Power BI dashboard visualizing sales performance and key metrics built during internship at Srishti Innovative.
+            <div class="project-card-body">
+              <h3 class="project-item-title">Market Sales Dashboard</h3>
+              <p class="project-item-desc">
+                Interactive Power BI dashboard visualizing sales performance and key metrics built at Srishti Innovative.
               </p>
-              <div class="project-codecraft-footer">
+              <div class="project-item-footer">
                 <span style="font-size: 0.78rem; color: var(--text-muted);">Power BI &amp; SQL</span>
-                <span class="view-project-link">View Project &rarr;</span>
+                <span class="project-red-link">GitHub Repo &rarr;</span>
               </div>
             </div>
           </a>
 
-          <!-- Project Card 3 (AI HR Recruiter System) -->
-          <a href="https://github.com/sreeshnusa/ai-hr-recruitment-assistant" target="_blank" rel="noopener noreferrer" class="project-codecraft-card">
-            <div class="project-codecraft-img-wrapper">
-              <span class="project-num-badge">03</span>
-              <img src="assets/project-images/project3.jpg" alt="AI HR Recruiter System" class="project-codecraft-img">
+          <!-- Project 3 (AI HR Recruiter System) -->
+          <a href="https://github.com/sreeshnusa/ai-hr-recruitment-assistant" target="_blank" rel="noopener noreferrer" class="project-card-item">
+            <div class="project-img-container">
+              <img src="assets/project-images/project3.jpg" alt="AI HR Recruiter System">
             </div>
-            <div class="project-codecraft-content">
-              <h3 class="project-codecraft-title">AI HR Recruiter System</h3>
-              <p class="project-codecraft-desc">
+            <div class="project-card-body">
+              <h3 class="project-item-title">AI HR Recruiter System</h3>
+              <p class="project-item-desc">
                 Intelligent AI-powered HR recruiting system automating resume screening, candidate ranking, and skill evaluation.
               </p>
-              <div class="project-codecraft-footer">
+              <div class="project-item-footer">
                 <span style="font-size: 0.78rem; color: var(--text-muted);">Python &amp; NLP</span>
-                <span class="view-project-link">View Project &rarr;</span>
+                <span class="project-red-link">GitHub Repo &rarr;</span>
               </div>
             </div>
           </a>
@@ -351,135 +192,83 @@
     </section>
 
     <!-- ==========================================================================
-         5. Experience & Certifications Timeline
+         4. Skills & Focus Section
          ========================================================================== -->
-    <section id="experience" class="section fade-in">
+    <section id="skills" class="section fade-in">
       <div class="container">
-        <div style="text-align: center; margin-bottom: 40px;">
-          <span class="section-label-badge">EXPERIENCE &amp; CERTIFICATIONS</span>
-          <h2 class="section-title">Internships &amp; Industry Credentials</h2>
-        </div>
+        <div class="section-label">/ SKILLS &amp; COMPETENCIES</div>
+        <h2 class="section-title">Technical Capabilities</h2>
 
-        <div style="display: flex; flex-direction: column; gap: 20px; max-width: 800px; margin: 0 auto;">
-          <!-- Exp 1 -->
-          <a href="https://www.linkedin.com/posts/sreeshnu09_internship-done-my-internship-as-a-data-activity-7421859033118314496-nQ9j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDV6O8BXt2Ufaooj1GIMgROOgr84oHkcpM" target="_blank" rel="noopener noreferrer" class="codecraft-stat-box" style="justify-content: space-between; text-decoration: none;">
-            <div>
-              <div style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary);">Data Analyst Intern</div>
-              <div style="font-size: 0.88rem; color: var(--primary-accent); font-weight: 600;">Srishti Innovative, Technopark, Trivandrum</div>
-              <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;">SQL, Excel data cleaning &amp; Power BI sales dashboard design</div>
-            </div>
-            <div style="font-size: 0.8rem; font-weight: 700; color: var(--primary-accent); white-space: nowrap;">Dec 2025 – Jan 2026 ↗</div>
-          </a>
-
-          <!-- Exp 2 -->
-          <a href="https://www.linkedin.com/posts/sreeshnu09_finally-completed-an-virtual-internship-at-activity-7388970093264863234-CHT5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDV6O8BXt2Ufaooj1GIMgROOgr84oHkcpM" target="_blank" rel="noopener noreferrer" class="codecraft-stat-box" style="justify-content: space-between; text-decoration: none;">
-            <div>
-              <div style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary);">Data Science Virtual Intern</div>
-              <div style="font-size: 0.88rem; color: var(--primary-accent); font-weight: 600;">EduSkills</div>
-              <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px;">Python, SQL, exploratory data analysis, and machine learning</div>
-            </div>
-            <div style="font-size: 0.8rem; font-weight: 700; color: var(--primary-accent); white-space: nowrap;">Jul 2025 – Sep 2025 ↗</div>
-          </a>
-
-          <!-- Cert Links -->
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 10px;">
-            <a href="https://www.linkedin.com/posts/sreeshnu09_completed-a-data-science-course-for-the-activity-7460697090764050432-IOcs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDV6O8BXt2Ufaooj1GIMgROOgr84oHkcpM" target="_blank" rel="noopener noreferrer" class="codecraft-stat-box">
-              <div class="stat-icon-square">📜</div>
-              <div>
-                <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-primary);">Data Science</div>
-                <div style="font-size: 0.78rem; color: var(--primary-accent);">Tech Vedu ↗</div>
-              </div>
-            </a>
-
-            <a href="https://www.linkedin.com/posts/sreeshnu09_javaprogramming-activity-7400529842741391360-vf5x?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDV6O8BXt2Ufaooj1GIMgROOgr84oHkcpM" target="_blank" rel="noopener noreferrer" class="codecraft-stat-box">
-              <div class="stat-icon-square">☕</div>
-              <div>
-                <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-primary);">Java Programming (Elite)</div>
-                <div style="font-size: 0.78rem; color: var(--primary-accent);">NPTEL ↗</div>
-              </div>
-            </a>
-          </div>
+        <div class="skills-tags-wrap">
+          <span class="skill-tag-badge">PYTHON</span>
+          <span class="skill-tag-badge">SQL</span>
+          <span class="skill-tag-badge">POWER BI</span>
+          <span class="skill-tag-badge">TABLEAU</span>
+          <span class="skill-tag-badge">MICROSOFT EXCEL</span>
+          <span class="skill-tag-badge">JAVA</span>
+          <span class="skill-tag-badge">DATA CLEANING &amp; PREPROCESSING</span>
+          <span class="skill-tag-badge">EXPLORATORY DATA ANALYSIS (EDA)</span>
+          <span class="skill-tag-badge">MACHINE LEARNING BASICS</span>
+          <span class="skill-tag-badge">PROBLEM SOLVING</span>
         </div>
       </div>
     </section>
 
     <!-- ==========================================================================
-         6. Let's Work Together & Contact Footer Section
+         5. Contact Section
          ========================================================================== -->
     <section id="contact" class="section fade-in">
       <div class="container">
-        <div class="footer-tri-layout">
-          <!-- Card 1 -->
-          <div class="footer-col-card">
-            <div>
-              <span class="section-label-badge">LET'S WORK TOGETHER</span>
-              <h3 class="footer-col-title">Have a project in mind?</h3>
-              <p class="footer-col-desc">
-                I'm always open to discussing new data analytics roles, AI projects, and placement opportunities. Let's create something amazing together!
-              </p>
-            </div>
-            <div>
-              <a href="mailto:sreeshnu09@gmail.com" class="btn btn-primary">
-                Get In Touch ↗
-              </a>
-            </div>
-          </div>
+        <div class="section-label">/ CONTACT</div>
+        <h2 class="section-title" style="margin-bottom: 35px;">GET IN TOUCH</h2>
 
-          <!-- Card 2 (Quote Box) -->
-          <div class="footer-col-card">
-            <div>
-              <div style="font-size: 2rem; color: var(--primary-accent); line-height: 1; margin-bottom: 8px;">“</div>
-              <p class="testimonial-quote-text">
-                "Data is not just numbers; it is the strategic foundation for real-world decision making and intelligent innovation."
-              </p>
+        <div class="contact-grid-row">
+          <!-- Email -->
+          <a href="mailto:sreeshnu09@gmail.com" class="contact-card-box">
+            <div class="contact-icon-red">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
             </div>
-            <div class="quote-author-row">
-              <img src="assets/images/profile.jpg" alt="Sreeshnu S A" class="quote-author-avatar">
-              <div>
-                <div class="author-name">Sreeshnu S A</div>
-                <div class="author-role">Aspiring Data Analyst &amp; AI Student</div>
-              </div>
-            </div>
-          </div>
+            <div style="font-size: 0.75rem; color: var(--text-secondary);">EMAIL</div>
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-primary);">sreeshnu09@gmail.com</div>
+          </a>
 
-          <!-- Card 3 (Contact Links & Socials) -->
-          <div class="footer-col-card">
-            <div>
-              <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin-bottom: 14px;">FOLLOW ME</div>
-              <div class="social-circle-row">
-                <a href="https://github.com/sreeshnusa" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="GitHub">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-                </a>
-                <a href="https://www.linkedin.com/in/sreeshnu09" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="LinkedIn">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
-              </div>
+          <!-- Phone -->
+          <a href="tel:+919443629462" class="contact-card-box">
+            <div class="contact-icon-red">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             </div>
+            <div style="font-size: 0.75rem; color: var(--text-secondary);">PHONE</div>
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-primary);">+91 9443629462</div>
+          </a>
 
-            <div class="contact-info-list">
-              <a href="mailto:sreeshnu09@gmail.com" class="contact-info-item">
-                <span class="contact-icon-purple">✉</span> sreeshnu09@gmail.com
-              </a>
-              <a href="tel:+919443629462" class="contact-info-item">
-                <span class="contact-icon-purple">📞</span> +91 9443629462
-              </a>
-              <div class="contact-info-item">
-                <span class="contact-icon-purple">📍</span> Coimbatore, Tamil Nadu
-              </div>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/sreeshnu09" target="_blank" rel="noopener noreferrer" class="contact-card-box">
+            <div class="contact-icon-red">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
             </div>
-          </div>
+            <div style="font-size: 0.75rem; color: var(--text-secondary);">LINKEDIN</div>
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-primary);">linkedin.com/in/sreeshnu09</div>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/sreeshnusa" target="_blank" rel="noopener noreferrer" class="contact-card-box">
+            <div class="contact-icon-red">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </div>
+            <div style="font-size: 0.75rem; color: var(--text-secondary);">GITHUB</div>
+            <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-primary);">github.com/sreeshnusa</div>
+          </a>
         </div>
       </div>
     </section>
   </main>
 
   <!-- ==========================================================================
-       Bottom Bar Footer
+       Footer
        ========================================================================== -->
-  <footer class="footer-bottom-bar">
-    <div class="container footer-bottom-flex">
-      <div>&copy; <span id="current-year">2026</span> Sreeshnu S A. All rights reserved.</div>
-      <div>Made with <span style="color: #EF4444;">❤️</span> by Sreeshnu</div>
+  <footer class="footer">
+    <div class="container">
+      Designed &amp; Developed by <strong>SREESHNU S A</strong> &copy; <span id="current-year">2026</span> &bull; Coimbatore, Tamil Nadu
     </div>
   </footer>
 
