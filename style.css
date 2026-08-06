@@ -570,45 +570,105 @@ img {
   margin-top: 2px;
 }
 
-/* Quote Sidebar Box (Dark Crimson) */
-.quote-sidebar-box {
+/* Technical Skills & Certifications Sidebar Card */
+.skills-sidebar-card {
   background-color: var(--quote-box-bg);
   border: 1px solid var(--quote-box-border);
   border-radius: var(--border-radius);
-  padding: 30px 24px;
+  padding: 28px 24px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: var(--transition-speed);
 }
 
-.quote-red-symbol {
-  font-size: 3rem;
+.skills-sidebar-card:hover {
+  border-color: var(--primary-accent);
+  box-shadow: 0 12px 35px rgba(125, 211, 252, 0.15);
+}
+
+.skills-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--card-border);
+  padding-bottom: 14px;
+}
+
+.skills-icon-badge {
+  font-size: 1.2rem;
   color: var(--primary-accent);
-  line-height: 1;
-  font-family: serif;
 }
 
-.quote-sidebar-text {
-  font-size: 0.9rem;
-  color: #E2E8F0;
-  line-height: 1.7;
-  margin-top: 10px;
+.skills-card-title {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+  text-transform: uppercase;
 }
 
-.quote-sidebar-author {
-  font-family: var(--font-script);
-  font-size: 2rem;
-  color: var(--primary-accent);
-  margin-top: 14px;
+.skills-cat-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.quote-sidebar-footer {
+.skills-cat-label {
   font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: var(--primary-accent);
+  text-transform: uppercase;
+}
+
+.skills-pills-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-badge-item {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--text-primary);
+  background-color: var(--bg-dark);
+  border: 1px solid var(--card-border);
+  padding: 4px 8px;
+  border-radius: 5px;
+  transition: var(--transition-speed);
+}
+
+.skill-badge-item:hover {
+  border-color: var(--primary-accent);
+  color: var(--primary-accent);
+}
+
+.cert-mini-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cert-mini-list li {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.skills-card-footer {
+  font-size: 0.7rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: var(--text-secondary);
-  margin-top: 30px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--card-border);
+  padding-top: 14px;
+  margin-top: auto;
 }
 
 /* ==========================================================================
